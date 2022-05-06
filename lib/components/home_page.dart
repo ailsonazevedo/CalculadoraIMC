@@ -14,13 +14,13 @@ class HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(         
       appBar: AppBar(
-        title: Text('Calculadora IMC'),
+        title: Text('Calculadora de IMC'),
         elevation: 0
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,     
         children: [
-          Text('O indice de massa corporal (IMC) e uma medida internacional usada para calcular se uma pessoa esta no peso ideal.',
+          Text('O Índice de Massa Corporal (IMC) é uma medida internacional usada para calcular se uma pessoa está no peso ideal.',
           textAlign: TextAlign.justify,
           ),
           
